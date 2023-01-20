@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: hsl(306deg 53% 94% / 74%);
+    background-image: linear-gradient(15deg, #5fa8accf, #6d7de645);
+}
+h1{
+    font-size: 275%;
+    text-align: center;
+    margin: 22px;
+    padding: 9px;
+}
+h3{
+    font-size: 129%;
+    text-align: center;
+    margin: 22px;
+    padding: 9px;
+}
+a:hover{
+    color: rgb(50, 13, 13);
+    font-family: system-ui;
+}
+.fitem:hover{
+    background-color: #e3d8d8;
+}
+.fitem{
+    margin-top: 28px;
+    height: 33px;
+    background-color: #bcc8b0;
+    border: solid black;
+    border-radius: 34px;
+    width: 54%;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 110%;
+}
+    
+
+.fcontainer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+@media (min-width:374px) {
+    a{
+       font-size: 80%;
+    }
+    .fitem{
+        width: 65%;
+    }
+}
+@media (min-width:760px){
+    h1{
+        font-size: 300%;
+    }
+    h3{
+        font-size: 130%;
+    }
+    a{
+        font-size:100%;
+     }
+}
+@media (min-width:279px ){
+    h1{
+        font-size: 130%;
+    }
+    h3{
+        font-size: 100%;
+    }
+    a{
+        font-size:60%;
+     }
+     .fitem{
+        width: 65%;
+    }
+}
+@media (min-width:1000px){
+    a{
+        font-size:130%;
+     }
+     h1{
+        font-size: 270%;
+    }
+    h3{
+        font-size: 130%;
+    }
+}
